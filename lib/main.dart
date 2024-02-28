@@ -1,3 +1,4 @@
+import 'package:drawers_buttons/drawer2.dart';
 import 'package:flutter/material.dart';
 
 import 'gmail.dart';
@@ -13,11 +14,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-    theme: ThemeData(useMaterial3: true),
     debugShowCheckedModeBanner: false,
     routes:
     {
-      '/': (context)=> gmail(),
+      '/': (context)=> drawer(),
       },
     );
   }
